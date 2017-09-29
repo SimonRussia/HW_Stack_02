@@ -9,6 +9,7 @@
 
 ## Tutorial
 
+#Структура репозитория:
 ```ShellSession
 $ tree repo
 examples/
@@ -24,6 +25,7 @@ CMakeLists.txt
 README.md
 ```
 
+#1-е условие:
 ```ShellSession
 # сборка без примеров
 $ cd repo
@@ -31,6 +33,7 @@ $ cmake -H. -B_builds
 $ cmake --builds _builds
 ```
 
+#2-е условие:
 ```ShellSession
 # сборка с примерами
 $ cd repo
