@@ -1,4 +1,4 @@
-"Copyright [2017] <Ovcharov Anisim>"
+//  "Copyright [2017] <Ovcharov Anisim>"
 #ifndef DESKTOP_WORKSPACE_HOMEWORK_STACK_02_INCLUDE_STACK_HPP_
 #define DESKTOP_WORKSPACE_HOMEWORK_STACK_02_INCLUDE_STACK_HPP_
 
