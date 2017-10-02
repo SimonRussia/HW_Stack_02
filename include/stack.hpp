@@ -48,7 +48,6 @@ void Stack<T>::push(T const &val) {
 
 template <typename T>
 T Stack<T>::pop() {
-	if(count_ == 0) throw runtime_error("ERROR: Stack Empty!"); 	//Контролируем счетчик (чтобы не выйти за границы массива), бросаем исключение.
 	return array_[--count_];
 }
 
