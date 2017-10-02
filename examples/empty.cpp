@@ -5,9 +5,9 @@ void foo_empty() {
 	cout << endl << "RUN EMPTY FILE..." << endl;
 	Stack<char> CharArr;
 
-	char slovo[] = "NOITAREDEF_NAISSUR";
+	string slovo[] = "NOITAREDEF_NAISSUR";
 
-	for(int i = 0; i < std::strlen(slovo); i++) { CharArr.push(slovo[i]); }
+	for(int i = 0; i < strlen(slovo); i++) { CharArr.push(slovo[i]); }
 
 	cout << "RESULT\t";
 	while(!CharArr.empty()) {
