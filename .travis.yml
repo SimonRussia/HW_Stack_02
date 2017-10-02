@@ -1,8 +1,8 @@
 language: cpp
 
 script:
-- cmake -H. -B_builds -DBUILD_EXAMPLES=ON
-- cmake --build _builds
+- cmake -H. -B_build -DBUILD_EXAMPLES=ON
+- cmake --build _build
 
 addons:
   apt:
